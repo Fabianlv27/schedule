@@ -1,0 +1,63 @@
+table,th,tr,td{
+    
+    border-collapse: collapse;
+  }
+  td{
+    border: solid 1px ;
+    text-align: center;
+  }
+th{
+    color: rgb(127, 229, 255);
+    background-color: rgba(4, 56, 116, 0.493);
+    border: solid 1px  rgb(127, 229, 255);
+    box-shadow: 0px 0px 10px rgba(8, 209, 166, 0.616) ;
+}
+h1{
+  color: whitesmoke;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.707);
+}
+.Hora{
+    color:rgb(127, 229, 255) ;
+
+ height: 40px;
+ width: 100px;
+ background-color: rgba(5, 57, 116, 0.959);
+ border: solid 1px  ;
+ box-shadow: 0px 0px 10px rgba(8, 112, 209, 0.616) ;
+font-weight: bold;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+.block {
+  
+    height: 40px;
+    width: 150px;
+background-color: rgba(6, 43, 43, 0.77);
+color: rgb(127, 229, 255);
+}
+
+
+
+  body {
+    background-image: url('https://img.freepik.com/fotos-premium/fondos-pantalla-azules-que-haran-que-tu-escritorio-vea-azul-fondo-pantalla-azul-fondo-pantalla-azul-fondo-pantalla-azul-fondo-pantalla-azul-fondo-pantalla-azul-fondo-pantalla-azul_833768-14.jpg');
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+  }
+  h1{
+    color: white;
+    font-size: 3rem;
+
+  }
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 0;
+}
+
